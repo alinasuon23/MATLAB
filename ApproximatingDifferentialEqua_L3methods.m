@@ -1,7 +1,7 @@
 T = input('input a time T > 0: ');
 n = input('input a partition size n: ');
 fprintf('input a method \n');
-method = input('(0=Euler, 1 = predictor-correction, 2=exact second-order, 3 = midpoint, 4 = Ralston’s): \n');
+method = input('(0=Euler, 1 = predictor-correction, 2=exact second-order, 3 = midpoint, 4 = Ralstonâ€™s): \n');
 
 x = 0:T/n:T;
 h = T/n;
